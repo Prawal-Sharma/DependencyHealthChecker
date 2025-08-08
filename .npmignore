@@ -1,0 +1,74 @@
+# Test files
+test/
+*.test.js
+coverage/
+.nyc_output/
+
+# Documentation (except README)
+docs/
+CONTRIBUTING.md
+CHANGELOG.md
+*.md
+!README.md
+!LICENSE
+
+# Development files
+.github/
+.vscode/
+.idea/
+*.log
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Source control
+.git/
+.gitignore
+
+# Config files
+.eslintrc*
+.prettierrc*
+jest.config.js
+.editorconfig
+
+# Examples and fixtures
+examples/
+fixtures/
+
+# Build artifacts
+dist/
+build/
+*.tgz
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+*.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# NPM debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager files
+yarn.lock
+pnpm-lock.yaml
