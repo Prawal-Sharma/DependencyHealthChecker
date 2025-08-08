@@ -1,5 +1,7 @@
 # Dependency Health Checker
 
+[![npm version](https://badge.fury.io/js/@prawals%2Fdependency-health-checker.svg)](https://www.npmjs.com/package/@prawals/dependency-health-checker)
+[![npm downloads](https://img.shields.io/npm/dm/@prawals/dependency-health-checker.svg)](https://www.npmjs.com/package/@prawals/dependency-health-checker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
 
@@ -20,13 +22,13 @@ A lightweight, local-first CLI tool for monitoring the health of your project de
 ### Installation
 
 ```bash
-npm install -g dependency-health-checker
+npm install -g @prawals/dependency-health-checker
 ```
 
 Or run directly with npx:
 
 ```bash
-npx dependency-health-checker
+npx @prawals/dependency-health-checker
 ```
 
 ### Basic Usage

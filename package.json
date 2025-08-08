@@ -1,5 +1,5 @@
 {
-  "name": "dependency-health-checker",
+  "name": "@prawals/dependency-health-checker",
   "version": "1.0.0",
   "description": "A lightweight, local-first CLI tool for monitoring the health of your project dependencies",
   "main": "src/index.js",
