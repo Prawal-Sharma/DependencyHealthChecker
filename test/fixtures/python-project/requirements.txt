@@ -1,0 +1,6 @@
+requests==2.25.1
+flask==1.1.2
+numpy>=1.19.0
+pandas~=1.2.0
+pytest==6.2.4
+django<4.0
