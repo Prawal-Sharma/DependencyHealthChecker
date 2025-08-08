@@ -1,0 +1,79 @@
+{
+  "name": "dependency-health-checker",
+  "version": "1.0.0",
+  "description": "A lightweight, local-first CLI tool for monitoring the health of your project dependencies",
+  "main": "src/index.js",
+  "bin": {
+    "depcheck": "./bin/depcheck"
+  },
+  "scripts": {
+    "start": "node bin/depcheck",
+    "dev": "node bin/depcheck",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/integration",
+    "test:e2e": "jest test/e2e",
+    "lint": "eslint src test",
+    "lint:fix": "eslint src test --fix"
+  },
+  "keywords": [
+    "dependency",
+    "security",
+    "vulnerability",
+    "npm",
+    "audit",
+    "checker",
+    "health",
+    "cli",
+    "outdated",
+    "packages"
+  ],
+  "author": "Prawal Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prawal-Sharma/DependencyHealthChecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prawal-Sharma/DependencyHealthChecker/issues"
+  },
+  "homepage": "https://github.com/Prawal-Sharma/DependencyHealthChecker#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "semver": "^7.5.4",
+    "table": "^6.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "jest": "^29.7.0",
+    "nock": "^13.4.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": false,
+    "coverageDirectory": "coverage",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
+    "testMatch": [
+      "**/test/**/*.test.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  }
+}
